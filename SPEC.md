@@ -2,6 +2,7 @@
 
 **MANDATORY INSTRUCTIONS - FOLLOW STRICTLY**
 
+
 ## Architecture
 - **Backend**: Django + DRF, API local only
 - **Frontend**: Astro SSR
@@ -10,6 +11,7 @@
   - Single `docker-compose.yaml` file at root
   - Separate Dockerfiles per service in `frontend/Dockerfile` and `backend/Dockerfile`
 - Security: API local only. 
+
 
 ## Prohibitions
 - NEVER execute with `uv`
@@ -20,14 +22,19 @@
 - ALWAYS remove all comments found in existing code
 - Do not expose API to public network.
 
+
 ## Response Format
+- Always respond in Spanish (castellano)
+- All code elements (variable names, file names, etc.) must be in strict English
 - Avoid writing code snippets in responses, prefer links to files, classes and functions
 - Decorate variables with backticks like `variable`
+
 
 ## Backend
 - Use `uv` (never pip)
 - Environment variables and requirements in `pyproject.toml`.
 - Few secrets in .env file
+
 
 ## Frontend
 - Astro SSR
