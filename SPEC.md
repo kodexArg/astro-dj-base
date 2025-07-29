@@ -35,6 +35,23 @@
 - Environment variables and requirements in `pyproject.toml`.
 - Few secrets in .env file
 
+### Versions
+- Django: 5.2.4
+- Django REST Framework: 3.16.0
+
+### Prohibitions
+- Never use Django 4.x or earlier versions
+- Never use DRF 3.15.x or earlier versions
 
 ## Frontend
 - Astro SSR
+
+### Versions
+- Astro: 5.12.4
+- Tailwind CSS: 4.0.0
+
+### Prohibitions
+- Never create the `tailwind.config.js` file (Tailwind 3 configuration in Tailwind 4)
+- Never use traditional CSS or style blocks
+- Always use Tailwind 4 exclusively for styling
+- Never use Tailwind 3.x or earlier versions
